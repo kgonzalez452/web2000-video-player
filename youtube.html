@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Necro Fi</title>
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+    <style>
+        .title {
+            z-index: 10;
+            position: absolute;
+            top: 33%;
+            margin: 0 auto;
+            width: 100%;
+            text-align: center;
+            font-size: 140px;
+            font-family: 'Sedgwick Ave Display', cursive;
+            color: rgb(0, 0, 0);
+        }
+
+        .title-highlight {
+            background-color: rgba(255, 0, 0, 0.8);
+            padding: 0px 20px;
+            border-radius: 100px;
+        }
+
+        .video-container {
+            opacity: 0.5;
+            width: 100%;
+            position: absolute;
+        }
+
+        body {
+            margin: 0px;
+            background: black;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        img {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            /* opacity: 1; */
+            height: 81.5vh;
+            
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .img-container{
+            display: flex;
+            width: 100%;
+            position: absolute;
+            justify-content: center;
+            
+        }
+
+        .banner {
+            position: absolute;
+            width: 100%;
+            height: 700px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        
+    </style>
+</head>
+
+
+<body>
+    <div class="banner">
+        <div class="img-container">
+        </div>
+        <div class="video-container">
+            
+            <img src="https://media.giphy.com/media/3oD3YnzuJ8gyntQWSQ/giphy.gif">
+            <div style="opacity: 0.5;">
+                
+                <video 
+                width="100%" 
+                height="auto" 
+                autoplay 
+                loop  
+                controls
+                style="margin-top: -21px">
+                
+                <source src="videofolder/videohiphop.mp4"> your browser does not support this video tag.
+                </video>
+                
+            </div>
+            
+            <h1 class="title">
+                Necro
+                <span class="title-highlight">
+                    Fi
+                </span>
+                
+            </h1>
+            
+        </div>
+
+        <div class="bio"></div>
+
+</body>
+</div>
+
+</html>
